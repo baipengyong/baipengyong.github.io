@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+}
+#header{
+    font-size: 13px;
+}
+
+#header .a{
+    color: #555555;
+    margin-left: 10px;
+}
+.header-left{
+    width: 270px;
+    height: 33px;
+    float: left;
+    
+    line-height: 33px;
+   
+}
+
+.header-right{
+    width: 600px;
+    height: 33px;
+    float: right;
+    line-height: 33px;
+    text-align: right;
+    font-weight:bolder;
+}
+
+.more-product{
+    /* 转化成行内块级标签 */
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #398bfb;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    /* 去掉a标签的下划线 */
+    text-decoration: none;
+    /* 与顶部最高元素对齐 */
+    vertical-align: top;
+}
+
+
+#content{
+    width: 641px;
+    height: 189;
+  
+    margin: 35px auto;
+  
+}
+
+#content .logo{
+    text-align: center;
+    width: 641px;
+    height: 112px;
+}
+
+#content .logo img{
+    width: 270px;
+    height: 112px;
+}
+
+#content .search{
+    width: 100%;
+    height: 77px;
+    padding-top: 10px;
+  
+}
+
+#content .search form{
+    width: 100%;
+    height: 44px;
+}
+
+#content .search form .search-text{
+    width:537px;
+    height: 44px;
+    padding-left: 8px;
+    float: left;
+
+    /* 去除鼠标点击后组件的边框颜色 */
+    outline: none;
+
+  
+}
+
+#content .search form .search-submit{
+    width: 104px;
+    height: 44px;
+    background-color: #398bfb;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+
+     /* 去除组件的边框颜色 */
+     outline: none;
+}
+
+
+#list{
+   width: 893px;
+   height: 600px;
+   border: 1px solid #c0c0c0;
+   margin: 0 auto;
+   margin-bottom: 80px;
+}
+
+#list .list-head{
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 40px;
+}
+
+#list .list-head .list-head-left{
+    float: left;
+   font-size: 0px;
+}
+
+#list .list-head .list-head-left a{
+    display: inline-block;
+    height: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #555; 
+    font-size: 14px;
+}
+
+#list .list-head .list-head-left a,#list .list-head .list-head-left img{
+    /* 使元素在父元素中居中 */
+    vertical-align: middle;
+}
+
+#list .list-head .list-head-left a:hover{
+    background-color: #cccccc;
+}
+
+#list .list-head .list-head-right{
+    float: right;
+    margin-right: 10px;
+    
+}
+
+#list .list-head .list-head-right img{
+    vertical-align: middle;
+}
+
+
+
+
+.list-content .list-content-left{
+    width: 575px;
+    height: 600px;
+    float: left;
+    padding: 10px 5px 5px 10px;
+}
+.list-content .list-content-left .list-content-left-cell1{
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+
+}
+
+.list-content .list-content-left .list-content-left-cell1 h3{
+    margin-bottom: 10px;
+}
+
+.list-content .list-content-left .list-content-left-cell1 p{
+    margin: 3px 0;
+    color: #555555;
+    font-size: 12px;
+}
+
+.list-content .list-content-left .list-content-left-cell2{
+    padding: 20px 0;
+    height: 160px;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.list-content .list-content-left .list-content-left-cell2 .cell-img{
+    float: left;
+}
+
+.list-content .list-content-left .list-content-left-cell2 .cell-title{
+    float: left;
+    width: 360px;
+    padding: 20px;
+}
+
+.list-content .list-content-left .list-content-left-cell2 h3{
+    margin-bottom: 10px;
+}
+
+.list-content .list-content-left .list-content-left-cell2 p{
+    margin: 3px 0;
+    color: #555555;
+    font-size: 12px;
+}
+
+.list-content .list-content-right{
+    width: 315px;
+    height: 600px;
+    float: left;
+}
+
+.list-content .list-content-right .list-content-top{
+    height: 60px;
+    width: 315px;
+    padding: 20px;
+}
+
+.list-content .list-content-right .list-content-top h4{
+    float: left;
+}
+
+.list-content .list-content-right .list-content-top div{
+    float: right;
+}
+
+.list-content .list-content-right .list-content-top img,.list-content .list-content-right .list-content-top span,.list-content .list-content-right .list-content-top h4{
+    vertical-align: middle;
+}
+
+.list-content-right .list-content-body{
+    padding: 0 20px;
+    background-color: red;
+}
+
+.list-content-right .list-content-body ul li{
+    /* 去掉li标签的原点 */
+    list-style: none;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+
+    color: #666666;
+    font-size: 14px;
+}
